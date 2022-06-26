@@ -146,69 +146,22 @@
     <script src="js/jquery.js"></script>
     <script src="js/app.js"></script>
 
-    <table border="0" width="200" style="border:4px solid #0098d7; align:center;">
-<tr>
-<td>
-<center>Obrigado por sua visita! Você já visitou esta página
+
+
+
+
+
+
+
+
+
 
 <script language="JavaScript">
-function getCookieSlsv (offset) {
-var endstr = document.cookie.indexOf (";", offset);
-if (endstr == -1)
-endstr = document.cookie.length;
-return unescape(document.cookie.substring(offset, endstr));
-}
-function GetCookie (name) {
-var arg = name + "=";
-var alen = arg.length;
-var clen = document.cookie.length;
-var i = 0;
-while (i < clen) {
-var j = i + alen;
-if (document.cookie.substring(i, j) == arg)
-return getCookieSlsv (j);
-i = document.cookie.indexOf(" ", i) + 1;
-if (i == 0)
-break;
-}
-return null;
-}
-function SetCookie (name, value) {
-var argv = SetCookie.arguments;
-var argc = SetCookie.arguments.length;
-var expires = (argc > 2) ? argv[2] : null;
-var path = (argc > 3) ? argv[3] : null;
-var domain = (argc > 4) ? argv[4] : null;
-var secure = (argc > 5) ? argv[5] : false;
-document.cookie = name + "=" + escape (value) +
-((expires == null) ? "" : ("; expires=" + expires.toGMTString()))
-+
-((path == null) ? "" : ("; path=" + path)) +
-((domain == null) ? "" : ("; domain=" + domain)) +
-((secure == true) ? "; secure" : "");
-}
-function DeleteCookie(name) {
-var exp = new Date();
-FixCookieDate (exp);
-exp.setTime (exp.getTime() - 1);
-var cval = GetCookie (name);
-if (cval != null)
-document.cookie = name + "=" + cval + "; expires=" + exp.toGMTString();
-}
-var expdate = new Date();
-var num_visits;
-expdate.setTime(expdate.getTime() + (365*24*60*60*1000));
-if (!(num_visits = GetCookie("num_visits")))
-num_visits = 0;
 num_visits++;
-SetCookie("num_visits",num_visits,expdate);
 document.writeln(num_visits+" vezes!");
 </script></center></td></tr></table>
 
-
-
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
+<!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
