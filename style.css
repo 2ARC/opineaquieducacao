@@ -20,12 +20,12 @@ body {
     height: 200px;
 }
 .sugestao{
-    max-width: 10px;
+    max-width: 200px;
     font-size: 20dp;
     white-space: nowrap;                  
     overflow: hidden; /* "overflow" value must be different from "visible" */
     text-overflow:    ellipsis;
-    border: 2px solid #ccc;
+    border: 1px solid #ccc;
 }
 
 #sres{
