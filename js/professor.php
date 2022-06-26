@@ -136,7 +136,7 @@ $rs = $con->query("select * from tb_sugestoes");
     
     <div class='bg-dark py-3'>
         <div class="container text-center">
-            <small class="text-secondary" id="sugestao">Desenvolvido por: Grupo005 - Univesp</small>
+            <small class="text-secondary" id="sugestao">Desenvolvido por: Grupo-052 / PI_II / Univesp / Guarujá / 2022</small>
             
         </div>
     </div>
