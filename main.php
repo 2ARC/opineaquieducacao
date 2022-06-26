@@ -161,7 +161,7 @@ document.cookie = escape(nome) + "=" + escape(valor) + "; expires=" + expires;
     <script language="javascript">
 if (!document.cookie){
 setCookie("cookie", "1", 365);
-document.write("<font face='verdana' size='1'>Suas Visitas : 1</font>");
+document.write("<font face='verdana' size='2'>Suas Visitas : 1</font>");
 } else {
 var cont = document.cookie;
 var dividindo = cont.split("=");
