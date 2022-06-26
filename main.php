@@ -54,7 +54,7 @@ document.cookie = escape(nome) + "=" + escape(valor) + "; expires=" + expires;
                 <h2 class="pb-3 text-secondary">Seu comentário é muito importante para nós</h2>
                 <h4 class="pb-4 text-secondary text-justify">O espaço para Sugestões e Opiniões foi criado com a intenção de mitigar os efeitos da pandemia de COVID-19 na comunicação em nossa comunidade por meio de uma caixa de sugestões virtual, auxiliado por um sistema na Internet de Banco de Dados. Sinta-se livre para comentar e expor suas dúvidas, dificuldades e anseios. As interações serão respondidas por nosso pessoal em tempo.</h3>
             </div>
-            <a class="btn btn-warning btn-lg p-4 px-1 shadow" type="submit" href="#sugestao"><i class="far fa-lightbulb"></i> Clique aqui para deixar sua sugestão</a>
+            <a class="btn btn-warning btn-lg p-4 px-10 shadow" type="submit" href="#sugestao"><i class="far fa-lightbulb"></i> Clique aqui para deixar sua sugestão</a>
         </div>
     </div>
     
