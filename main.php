@@ -77,7 +77,7 @@
     
     <div class='bg-dark py-3'>
         <div class="container text-center">
-            <small class="text-secondary" id="sugestaorodape">Desenvolvido por: Grupo-052 / 2022 / PI_II / Univesp</small>
+            <small class="text-secondary" id="sugestaorodape">Desenvolvido por: Grupo-052 / PI_II / Univesp / Guarujá / 2022</small>
             
         </div>
     </div>
