@@ -11,6 +11,18 @@
     <link rel="stylesheet" href="style.css">
 
     <title>Sugestões</title>
+
+
+    <script language="javascript"> 
+function setCookie(nome, valor, dias){ 
+diasms = (new Date()) .getTime() + 1000 * 3600 * 24 * dias; 
+dias = new Date(diasms); 
+expires = dias.toGMTString(); 
+document.cookie = escape(nome) + "=" + escape(valor) + "; expires=" + expires; 
+} 
+</script>
+
+
   </head>
   <body>
     <div class="container-fluid main pb-5">
@@ -82,9 +94,15 @@
     
     <div class='bg-dark py-3'>
         <div class="container text-center">
-        <div style="font-size: 10px;color: #dadada;" id="dumdiv"> <a href="http://www.hscripts.com" id="dum" style="text-decoration:none;color: #dadada;">&copy;h</a></div>
         <small class="text-secondary" id="sugestaorodape">Desenvolvido por: Grupo-052 / PI_II / Univesp / Guarujá / 2022</small>
-        </div>
+
+
+
+
+
+
+
+      </div>
     </div>
 
 
@@ -138,7 +156,26 @@
     <script src="bootstrap-5.1.0-dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/app.js"></script>
-    <script src="js/contador.js"></script>
+
+    
+    <script language="javascript">
+if (!document.cookie){
+setCookie("cookie", "1", 365);
+document.write("<font face='verdana' size='1'>Suas Visitas : 1</font>");
+} else {
+var cont = document.cookie;
+var dividindo = cont.split("=");
+//document.write(dividindo[1]);
+var numero = parseInt(dividindo[1]);
+var soma = numero + 1;
+document.write("<font face='verdana' size='1'>Suas Visitas : " + soma + "</font>");
+setCookie("cookie", soma, 365);
+}
+</script> 
+
+
+
+
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
