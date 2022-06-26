@@ -80,7 +80,7 @@
     </div>
 
     
-    <div class='bg-dark py-3'>
+    <div class='bg-dark text-white'>
         <div class="container text-center">
             <small class="text-secondary" id="sugestaorodape">Desenvolvido por: Grupo-052 / PI_II / Univesp / Guarujá / 2022</small>
             

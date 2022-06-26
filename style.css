@@ -1,14 +1,14 @@
 body {
     background-image: url("./img/coronavirus.svg");
     background-repeat: no-repeat;
-
 }
 
 .main{
     height: 650px;
-    background-color: hsla(0, 0%, 100%, 0.39);
+    background-color: hwb(0 100% 0% / 0.507);
                 
 }
+
 .apresentacao{
     font-family: 'Hina Mincho', serif;
 }
