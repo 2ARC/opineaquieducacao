@@ -82,8 +82,8 @@
     
     <div class='bg-dark py-3'>
         <div class="container text-center">
-            <small class="text-secondary" id="sugestaorodape">Desenvolvido por: Grupo-052 / PI_II / Univesp / Guarujá / 2022</small>
-            
+        <div style="font-size: 10px;color: #dadada;" id="dumdiv"> <a href="http://www.hscripts.com" id="dum" style="text-decoration:none;color: #dadada;">&copy;h</a></div>
+        <small class="text-secondary" id="sugestaorodape">Desenvolvido por: Grupo-052 / PI_II / Univesp / Guarujá / 2022</small>
         </div>
     </div>
 
