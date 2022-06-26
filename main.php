@@ -39,8 +39,8 @@
         <div class="container text-center">
             <div class="apresentacao">
                 <h1 class="py-5">Seja bem vindo!</h1>
-                <h2 class="pb-3 text-secondary">Sua Sugestão é muito importante</h2>
-                <h4 class="pb-4 text-secondary text-justify">O espaço para Sugestões e Opiniões foi criado com a intenção de melhorar a comunicação Escola/Público Alvo por meio de uma caixa de sugestões virtual, auxiliado por um sistema na Internet de Banco de Dados, onde as interações se dão em campo de digitação e/ou escolha de termos em tabelas, permitindo assim que haja liberdade de opinar, sugerir, criticar, comentar, elogiar e agradecer.</h3>
+                <h2 class="pb-3 text-secondary">Sua Sugestão é muito importante para nós</h2>
+                <h4 class="pb-4 text-secondary text-justify">O espaço para Sugestões e Opiniões foi criado com a intenção de melhorar a comunicação em nossa comunidade por meio de uma caixa de sugestões virtual, auxiliado por um sistema na Internet de Banco de Dados, onde as interações se dão em campo de digitação e/ou escolha de termos em tabelas, permitindo assim que haja liberdade de opinar, sugerir, criticar, comentar, elogiar e agradecer.</h3>
             </div>
             <a class="btn btn-warning btn-lg p-4 px-5 shadow" type="submit" href="#sugestao"><i class="far fa-lightbulb"></i> Clique aqui para deixar sua sugestão</a>
         </div>
