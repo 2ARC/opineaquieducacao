@@ -39,7 +39,7 @@
         <div class="container text-center">
             <div class="apresentacao">
                 <h1 class="py-5">Seja bem vindo!</h1>
-                <h2 class="pb-3 text-secondary">Sua Sugestão é muito importante para nós</h2>
+                <h2 class="pb-3 text-secondary">Seu comentário é muito importante para nós</h2>
                 <h4 class="pb-4 text-secondary text-justify">O espaço para Sugestões e Opiniões foi criado com a intenção de melhorar a comunicação em nossa comunidade por meio de uma caixa de sugestões virtual, auxiliado por um sistema na Internet de Banco de Dados, onde as interações se dão em campo de digitação e/ou escolha de termos em tabelas, permitindo assim que haja liberdade de opinar, sugerir, criticar, comentar, elogiar e agradecer.</h3>
             </div>
             <a class="btn btn-warning btn-lg p-4 px-5 shadow" type="submit" href="#sugestao"><i class="far fa-lightbulb"></i> Clique aqui para deixar sua sugestão</a>
@@ -63,7 +63,7 @@
                   <input type="email" class="form-control border-0" id="email" name="email" placeholder="nome@exemplo.com" maxlength="60" required>
               </div>
               <div class="mb-2">
-                  <label for="sugestao" class="form-label">Digite aqui sua sugestão(*)</label>
+                  <label for="sugestao" class="form-label">Digite aqui seu comentário(*)</label>
                   <textarea class="form-control border-0 textarea-sugestao" id="sugestao" name="sugestao" rows="3" maxlength="65535" required></textarea>
               </div>
               <div><small class="text-light">(*) Campos Obrigatórios</small></div>
@@ -77,7 +77,7 @@
     
     <div class='bg-dark py-3'>
         <div class="container text-center">
-            <small class="text-secondary" id="sugestaorodape">Desenvolvido por: Grupo005 - Univesp</small>
+            <small class="text-secondary" id="sugestaorodape">Desenvolvido por: Grupo-052 / 2022 para PI_II Univesp</small>
             
         </div>
     </div>
@@ -122,7 +122,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body px-5 py-5">
-				Obrigado pela sua sugestão, estaremos analizando.
+				Obrigado pelo seu comentário, estaremos analizando.
             
           </div>
         </form>
