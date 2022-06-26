@@ -69,7 +69,7 @@
               <div><small class="text-light">(*) Campos Obrigatórios</small></div>
               <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                   <button class="btn btn-dark btn-lg px-5" type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
-                  <svg width="50" height="50">
+                  <svg width="70" height="70">
                     <circle cx="50" cy="50" r="40" stroke="blue" stroke-width="5" fill="silver" onmouseover="this.style.fill='yellow'" onmouseout="this.style.fill='silver'">
                       <animate attributeName="r" values="40;20;40" dur="2s" repeatCount="indefinite" />
                     </circle>
@@ -80,7 +80,7 @@
     </div>
 
     
-    <div class='bg-dark text-white'>
+    <div class='bg-dark py-3'>
         <div class="container text-center">
             <small class="text-secondary" id="sugestaorodape">Desenvolvido por: Grupo-052 / PI_II / Univesp / Guarujá / 2022</small>
             
