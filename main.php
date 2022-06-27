@@ -138,6 +138,10 @@
       </div>
     </div>
 
+    <script src="bootstrap-5.1.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/app.js"></script>
+    
 <table border="0" width="100" style="border:2px solid #0098d7; align:center;">
 <tr>
 <td>
