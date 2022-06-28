@@ -29,7 +29,7 @@
                     <li class="nav-item">
                     <a class="nav-link" href="#sugestao">Sugestão</a>
                     </li>                    <li class="nav-item">
-                    <a class="nav-link" href="oae_questionario.html">Cadastro (opcional)</a>
+                    <a class="nav-link" href="https://forms.gle/1XEmE7oZiEKFthd68">Cadastro (opcional)</a>
                     </li>
                 </ul>
                 <form class="d-flex">
