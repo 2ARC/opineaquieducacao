@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="oae_questionario.css">
+    
+    <title>Questionário socioeducacional</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Questionário Socioeducacional
+            <h2>
+                Esta área é opcional. Por favor, entre com seus dados para que possamos conhecê-lo melhor.
+            </h2>
+        </h1>
+    </header>
+    <main>
+        <section id="dados">
+            <h2>Identificação</h2>
+            <p id="parte">(parte 1 de 2)</p>
+            <form id="ident">
+                <label for="nome">Nome: </label> 
+                <input type="text" id="nome" name="nome">  (Não obrigatório)<br><br>
+                <label for="idade">Idade: </label>
+                <input type="text" id="idade" name="idade"><br><br>
+                <p>Gênero:</p>
+                <input type="radio" name="genero" id="masc" value="masc">
+                <label for="">Masculino</label><br>
+                <input type="radio" name="genero" id="femin" value="femin">
+                <label for="">Feminino</label><br>
+                <input type="radio" name="genero" id="outrogen" value="outrogen" onclick="endis()">
+                <label for="">Outro (Qual?)</label>
+                <input type="text" id="genn" disabled="true"><br>
+                <input type="radio" name="genero" id="desconhecidogen" value="desconhecidogen">
+                <label for="">Prefiro não dizer</label><br><br>
+                <p>Eu sou:</p>
+                <input type="radio" name="pessoa" id="aluno" value="aluno">
+                <label for="">Aluno</label><br>
+                <input type="radio" name="pessoa" id="responsavel" value="responsavel">
+                <label for="">Responsáveis de aluno</label><br>
+                <input type="radio" name="pessoa" id="membro" value="membro">
+                <label for="">Morador da comunidade (Nem aluno, nem responsável por aluno)</label><br>
+                <!---Botão segunda parte--->
+                <input type="button" value="Ir para parte 2" id="segparte" onclick="showDiv()"></form>
+        </section>
+        <section id="questoes">
+            <h3>Questões</h3>
+            <p id="parte">(parte 2 de 2)</p>
+            <br>
+
+            <div class="alunos">
+
+                <form action="">
+                    <!---Questão 1--->
+                    <p>Em que ano você estuda?</p>
+                    <input type="radio" name="01" id="01a">
+                    <label for="">1º ao 5º ano</label><br>
+                    <input type="radio" name="01" id="01b">
+                    <label for="">6º ao 9º ano</label><br>
+                    <input type="radio" name="01" id="01c">
+                    <label for="">EJA</label><br><br>
+                    <!---Questão 2--->
+                    <p>Quanto tempo você mora no bairro (ou bairro vizinho) em que está situada a escola?</p>
+                    <input type="radio" name="02" id="02a">
+                    <label for="">0 a 2 anos</label><br>
+                    <input type="radio" name="02" id="02b">
+                    <label for="">2 a 5 anos</label><br>
+                    <input type="radio" name="02" id="02c">
+                    <label for="">5 a 10 anos</label><br>
+                    <input type="radio" name="02" id="02d">
+                    <label for="">10 a 20 anos</label><br>
+                    <input type="radio" name="02" id="02e">
+                    <label for="">Mais de 20 anos</label><br>
+                    <input type="radio" name="02" id="02e">
+                    <label for="">Não moro no mesmo bairro ou bairro vizinho</label><br><br>
+                    <!---Questão 3--->
+                    <p>Quais meios de transporte você utiliza para chegar a sua escola?</p>
+                    <input type="checkbox" name="03" id="03a">
+                    <label for="">Ônibus</label><br>
+                    <input type="checkbox" name="03" id="03b">
+                    <label for="">Carro</label><br>
+                    <input type="checkbox" name="03" id="03c">
+                    <label for="">Barca</label><br>
+                    <input type="checkbox" name="03" id="03d">
+                    <label for="">Moto</label><br>
+                    <input type="checkbox" name="03" id="03e">
+                    <label for="">Van escolar</label><br>
+                    <input type="checkbox" name="03" id="03f">
+                    <label for="">Outro</label><br>
+                    <input type="checkbox" name="03" id="03g">
+                    <label for="">Nenhum, vou até a escola andando</label><br><br>
+                      <!---Questão 4--->
+                    <p>Você recebe transporte escolar?</p>
+                    <input type="radio" name="04" id="04a">
+                    <label for="">Sim</label><br>
+                    <input type="radio" name="04" id="04b">
+                    <label for="">Não</label><br><br>
+                    <!---Questão 5--->
+                    <p>Quanto tempo você demora para chegar até a escola?</p>
+                    <input type="radio" name="05" id="05a">
+                    <label for="">0 a 10 min</label><br>
+                    <input type="radio" name="05" id="05b">
+                    <label for="">10 a 20 min</label><br>
+                    <input type="radio" name="05" id="05c">
+                    <label for="">20 a 30 min</label><br>
+                    <input type="radio" name="05" id="05d">
+                    <label for="">mais de 30 min</label><br><br>
+                    <!---Questão 6--->
+                    <p>O que acha da qualidade de ensino da escola?</p>
+                    <input type="radio" name="06" id="06a">
+                    <label for="">Péssimo</label><br>
+                    <input type="radio" name="06" id="06b">
+                    <label for="">Ruim</label><br>
+                    <input type="radio" name="06" id="06c">
+                    <label for="">Regular</label><br>
+                    <input type="radio" name="06" id="06d">
+                    <label for="">Bom</label><br>
+                    <input type="radio" name="06" id="06e">
+                    <label for="">Ótimo</label><br><br>
+                    <!---Questão 7--->
+                    <p>Você gostaria de mudar de escola?</p>
+                    <input type="radio" name="07" id="07a">
+                    <label for="">Sim</label><br>
+                    <input type="radio" name="07" id="07b">
+                    <label for="">Não</label><br><br>
+                    <!---Questão 8--->
+                    <p>Acha que a escola vem contribuindo para melhoria da comunidade?</p>
+                    <input type="radio" name="08" id="08a">
+                    <label for="">Sim</label><br>
+                    <input type="radio" name="08" id="08b">
+                    <label for="">Não</label><br><br>
+                    <!---Questão 9--->
+                    <p>Acha que a escola deveria realizar mais atividades que interajam com a comunidade?</p>
+                    <input type="radio" name="09" id="09a">
+                    <label for="">Sim</label><br>
+                    <input type="radio" name="09" id="09b">
+                    <label for="">Não</label><br><br>
+                    <!---botão enviar--->
+                    <input type="button" value="enviar" id="env" onclick="coletaDados()">
+                </form>
+
+            </div>
+            <div class="responsaveis">
+
+                <form action="">
+                    <!---Questão 10--->
+                    <p>Em que ano seu filho estuda?</p>
+                    <input type="radio" name="10" id="10a">
+                    <label for="">1º ao 5º ano</label><br>
+                    <input type="radio" name="10" id="10b">
+                    <label for="">6º ao 9º ano</label><br>
+                    <input type="radio" name="10" id="10c">
+                    <label for="">EJA</label><br><br>
+                    <!---Questão 11--->
+                    <p>Quanto tempo você mora no bairro (ou bairro vizinho) em que está situada a escola?</p>
+                    <input type="radio" name="11" id="11a">
+                    <label for="">0 a 2 anos</label><br>
+                    <input type="radio" name="11" id="11b">
+                    <label for="">2 a 5 anos</label><br>
+                    <input type="radio" name="11" id="11c">
+                    <label for="">5 a 10 anos</label><br>
+                    <input type="radio" name="11" id="11d">
+                    <label for="">10 a 20 anos</label><br>
+                    <input type="radio" name="11" id="11e">
+                    <label for="">Mais de 20 anos</label><br>
+                    <input type="radio" name="11" id="11f">
+                    <label for="">Não moro no mesmo bairro ou bairro vizinho</label><br><br>
+                    <!---Questão 12--->
+                    <p>O que acha da qualidade de ensino da escola?</p>
+                    <input type="radio" name="12" id="12a">
+                    <label for="">Péssimo</label><br>
+                    <input type="radio" name="12" id="12b">
+                    <label for="">Ruim</label><br>
+                    <input type="radio" name="12" id="12c">
+                    <label for="">Regular</label><br>
+                    <input type="radio" name="12" id="12d">
+                    <label for="">Bom</label><br>
+                    <input type="radio" name="12" id="12e">
+                    <label for="">Ótimo</label><br>
+                    <input type="radio" name="12" id="12f">
+                    <label for="">Não sei responder</label><br><br>
+                    <!---Questão 13--->
+                    <p>Acha que a escola vem contribuindo para melhoria da comunidade?</p>
+                    <input type="radio" name="13" id="13a">
+                    <label for="">Sim</label><br>
+                    <input type="radio" name="13" id="13b">
+                    <label for="">Não</label><br><br>
+                    <!---Questão 14--->
+                    <p>Acha que a escola deveria realizar mais atividades que interajam com a comunidade?</p>
+                    <input type="radio" name="14" id="14a">
+                    <label for="">Sim</label><br>
+                    <input type="radio" name="14" id="14b">
+                    <label for="">Não</label><br><br>
+                    <!---Questão 15--->
+                    <p>Participa das atividades escolares?</p>
+                    <input type="radio" name="15" id="15a">
+                    <label for="">Sempre</label><br>
+                    <input type="radio" name="15" id="15b">
+                    <label for="">Frequentemente</label><br>
+                    <input type="radio" name="15" id="15c">
+                    <label for="">Algumas vezes</label><br>
+                    <input type="radio" name="15" id="15d">
+                    <label for="">Nunca</label><br><br>
+                    <!---botão enviar--->
+                    <input type="button" value="enviar" id="env" onclick="coletaDados()">
+                </form>
+
+            </div>
+
+            <div class="membros">         
+
+                <form id="qst">
+                    <!---Questão 16--->
+                    <p>Quanto tempo você mora na comunidade em que está situada a escola?</p>
+                    <input type="radio" name="16" id="01a">
+                    <label for="">0 a 5 anos</label><br>
+                    <input type="radio" name="16" id="01b">
+                    <label for="">6 a 10 anos</label><br>
+                    <input type="radio" name="16" id="01c">
+                    <label for="">11 a 20 anos</label><br>
+                    <input type="radio" name="16" id="01d">
+                    <label for="">20 a 40 anos</label><br>
+                    <input type="radio" name="16" id="01e">
+                    <label for="">Mais de 40 anos</label><br>
+                    <input type="radio" name="16" id="01f">
+                    <label for="">Não sou morador da comunidade</label><br><br>
+                    <!---Questão 17--->
+                    <p>O que acha da qualidade de ensino da escola?</p>
+                    <input type="radio" name="17" id="17a">
+                    <label for="">Péssimo</label><br>
+                    <input type="radio" name="17" id="17b">
+                    <label for="">Ruim</label><br>
+                    <input type="radio" name="17" id="17c">
+                    <label for="">Regular</label><br>
+                    <input type="radio" name="17" id="17d">
+                    <label for="">Bom</label><br>
+                    <input type="radio" name="17" id="17e">
+                    <label for="">Ótimo</label><br>
+                    <input type="radio" name="17" id="17f">
+                    <label for="">Não tenho como responder</label><br><br>
+                    <!---Questão 18--->
+                    <p>Caso tivesse um filho, você matricularia nesta escola?</p>
+                    <input type="radio" name="18" id="18a">
+                    <label for="">Sim</label><br>
+                    <input type="radio" name="18" id="18b">
+                    <label for="">Não</label><br><br>
+                    <!---Questão 19--->
+                    <p>Acha que a escola vem contribuindo para melhoria da comunidade?</p>
+                    <input type="radio" name="19" id="19a">
+                    <label for="">Sim</label><br>
+                    <input type="radio" name="19" id="19b">
+                    <label for="">Não</label><br><br>
+                    <!---Questão 20--->
+                    <p>Acha que a escola deveria realizar mais atividades que interajam com a comunidade?</p>
+                    <input type="radio" name="20" id="20a">
+                    <label for="">Sim</label><br>
+                    <input type="radio" name="20" id="20b">
+                    <label for="">Não</label><br><br>
+                    <!---botão enviar--->
+                    <input type="button" value="enviar" id="env" onclick="coletaDados()">
+                </form>
+            
+        </div>
+        </section>
+    </main>
+</body>
+<script src="js/oae_questionario.js"></script>
+</html>

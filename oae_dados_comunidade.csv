@@ -1,0 +1,15 @@
+nome,idade,genero,tipo,tempo_moradia,matricularia_filho,ajuda_comunidade,mais_comunidade
+anônimo,20,feminino,membro,20a40,sim,sim,sim
+Joana,35,feminino,membro,20a40,sim,sim,sim
+Maria,66,feminino,membro,mais40,sim,sim,sim
+anônimo,45,masculino,membro,20a40,sim,sim,sim
+anônimo,64,feminino,membro,mais40,sim,sim,sim
+Maria Lopes,50,feminino,membro,6a10,sim,sim,sim
+André,58,masculino,membro,mais40,sim,sim,sim
+Luis Souza,53,masculino,membro,6a10,não,sim,sim
+Marcoa Alonso,23,masculino,membro,0a5,sim,sim,sim
+anônimo,41,feminino,membro,20a40,sim,sim,sim
+Mariangêla Soneda,42,feminino,membro,0a5,sim,sim,sim
+anônimo,57,feminino,membro,20a40,sim,sim,sim
+Otávio Gomes,75,masculino,membro,20a40,sim,sim,sim
+Nilza Souza,62,feminino,membro,40a60,não,não,não

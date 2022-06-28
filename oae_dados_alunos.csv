@@ -1,0 +1,25 @@
+nome,idade,genero,tipo,serie,tempo_moradia,transporte,vale_transp,tempo_desl,qualidade_ens,mudar,ajuda_comunidade,mais_comunidade
+Karla,10,feminino,aluno,1a5,5a10,carro,não,10,boa,sim,sim,sim
+anônimo,8,masculino,aluno,1a5,2a5,van,não,20,regular,sim,não,sim
+Jéssica Silva,8,feminino,aluno,1a5,2a5,ônibus,sim,30,regular,sim,sim,sim
+João Pedro,13,outro,aluno,6a9,5a10,ônibus,sim,40,ruim,sim,sim,sim
+Lucas,11,masculino,aluno,1a5,10a20,nenhum,não,6,regular,não,não,sim
+Maria Fonseca,11,feminino,aluno,6a9,10a20,ônibus,sim,25,boa,não,sim,sim
+Joana Aparecida da Silva,9,feminino,aluno,1a5,5a10,ônibus,sim,25,regular,sim,não,não
+Enzo,10,masculino,aluno,1a5,5a10,ônibus,sim,30,regular,não,não,sim
+anônimo,20,feminino,aluno,EJA,10a20,barca,não,60,regular,sim,não,sim
+Jorge Santos,7,masculino,aluno,1a5,5a10,van,não,25,boa,não,sim,sim
+Marcia,10,feminino,aluno,1a5,5a10,nenhum,não,35,boa,não,não,sim
+Gabriel,19,masculino,aluno,EJA,10a20,ônibus,não,50,regular,sim,sim,sim
+Lucas Ramos,19,masculino,aluno,EJA,2a5,moto,não,8,boa,não,sim,sim
+Patrícia,15,outro,aluno,6a9,5a10,nenhum,não,25,regular,sim,sim,não
+anônimo,8,feminino,aluno,1a5,5a10,van,não,20,boa,sim,sim,sim
+anônimo,13,masculino,aluno,6a9,5a10,nenhum,não,15,péssima,sim,não,sim
+anônimo,14,masculino,aluno,6a9,10a20,ônibus,sim,90,regular,não,sim,sim
+João Pedro Júnior,8,masculino,aluno,1a5,2a5,nenhum,não,20,boa,sim,sim,sim
+Marco,9,masculino,aluno,1a5,0a2,ônibus,sim,35,regular,sim,sim,sim
+Thiago,12,masculino,aluno,1a5,10a20,nenhum,não,3,boa,sim,não,sim
+Rodrigo Costa,12,não declarado,aluno,6a9,10a20,nenhum,não,5,regular,sim,sim,sim
+Marcela Silva,8,feminino,aluno,1a5,0a2,nenhum,não,5,ótima,não,sim,sim
+anônimo,15,outro,aluno,6a9,10a20,nenhum,não,8,regular,não,sim,sim
+Jéssika,9,feminino,aluno,1a5,5a10,nenhum,não,10,ótima,não,não,sim

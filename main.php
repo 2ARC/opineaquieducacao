@@ -28,6 +28,8 @@
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="#sugestao">Sugestão</a>
+                    </li>                    <li class="nav-item">
+                    <a class="nav-link" href="oae_questionario.html">Cadastro (opcional)</a>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -79,18 +81,10 @@
             </form>
         </div>
     </div>
-
     
     <div class='bg-dark py-3'>
         <div class="container text-center">
         <small class="text-secondary" id="sugestaorodape">Desenvolvido por: Grupo-052 / PI_II / Univesp / Guarujá / 2022</small>
-
-
-
-
-
-
-
       </div>
     </div>
 
@@ -138,69 +132,17 @@
       </div>
     </div>
 
+    
+    <table border="0" width="500" style="border:1px solid #0098d7; align:center;">
+    <tr>
+    <td>
+    <center>Você já visitou esta página
+
+    <script src="js/contador.js"></script>
+    </center></td></tr></table>
     <script src="bootstrap-5.1.0-dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/app.js"></script>
-    
-<table border="0" width="100" style="border:2px solid #0098d7; align:center;">
-<tr>
-<td>
-<center>Você já visitou esta página
-
-<script language="JavaScript">
-function getCookieSlsv (offset) {
-var endstr = document.cookie.indexOf (";", offset);
-if (endstr == -1)
-endstr = document.cookie.length;
-return unescape(document.cookie.substring(offset, endstr));
-}
-function GetCookie (name) {
-var arg = name + "=";
-var alen = arg.length;
-var clen = document.cookie.length;
-var i = 0;
-while (i < clen) {
-var j = i + alen;
-if (document.cookie.substring(i, j) == arg)
-return getCookieSlsv (j);
-i = document.cookie.indexOf(" ", i) + 1;
-if (i == 0)
-break;
-}
-return null;
-}
-function SetCookie (name, value) {
-var argv = SetCookie.arguments;
-var argc = SetCookie.arguments.length;
-var expires = (argc > 2) ? argv[2] : null;
-var path = (argc > 3) ? argv[3] : null;
-var domain = (argc > 4) ? argv[4] : null;
-var secure = (argc > 5) ? argv[5] : false;
-document.cookie = name + "=" + escape (value) +
-((expires == null) ? "" : ("; expires=" + expires.toGMTString()))
-+
-((path == null) ? "" : ("; path=" + path)) +
-((domain == null) ? "" : ("; domain=" + domain)) +
-((secure == true) ? "; secure" : "");
-}
-function DeleteCookie(name) {
-var exp = new Date();
-FixCookieDate (exp);
-exp.setTime (exp.getTime() - 1);
-var cval = GetCookie (name);
-if (cval != null)
-document.cookie = name + "=" + cval + "; expires=" + exp.toGMTString();
-}
-var expdate = new Date();
-var num_visits;
-expdate.setTime(expdate.getTime() + (365*24*60*60*1000));
-if (!(num_visits = GetCookie("num_visits")))
-num_visits = 0;
-num_visits++;
-SetCookie("num_visits",num_visits,expdate);
-document.writeln(num_visits+" vezes!");
-</script></center></td></tr></table>
-
 
 <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

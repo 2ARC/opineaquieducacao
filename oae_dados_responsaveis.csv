@@ -1,0 +1,26 @@
+nome,idade,genero,tipo,serie,tempo_moradia,qualidade_ens,ajuda_comunidade,mais_comunidade,participa_escola
+Alfredo Alves,42,masculino,responsável,1a5,20a40,boa,sim,sim,nunca
+Maria Aparecida,55,feminino,responsável,6a9,20a40,boa,sim,sim,algumas vezes
+Marcia,60,feminino,responsável,6a9,mais40,regular,sim,sim,nunca
+anônimo,36,masculino,responsável,1a5,20a40,regular,sim,sim,nunca
+Joana,50,feminino,responsável,6a9,mais40,boa,sim,sim,algumas vezes
+Mario dos Santos,51,masculino,responsável,6a9,11a20,boa,sim,sim,nunca
+Marcos Conceição,55,masculino,responsável,1a5,0a5,regular,sim,sim,frequentemente
+Maria Gonçalves Costa,32,feminino,responsável,6a9,11a20,regular,sim,sim,nunca
+anônimo,30,masculino,responsável,1a5,6a10,boa,sim,sim,algumas vezes
+Olinda S. Souza,39,feminino,responsável,6a9,0a5,boa,não,sim,nunca
+Ana Maria Silva,40,feminino,responsável,1a5,6a10,regular,não,sim,algumas vezes
+Bruna Costa,41,feminino,responsável,1a5,11a20,boa,sim,sim,algumas vezes
+anônimo,39,masculino,responsável,1a5,20a40,regular,sim,sim,nunca
+Marcela,35,não declarado,responsável,1a5,20a40,regular,sim,sim,sempre
+Regina,46,feminino,responsável,1a5,0a5,boa,sim,sim,algumas vezes
+Patrícia,42,feminino,responsável,1a5,11a20,boa,sim,sim,nunca
+anônimo,42,feminino,responsável,1a5,11a20,regular,sim,sim,nunca
+Helena Costa,50,feminino,responsável,6a9,6a10,ótima,sim,sim,algumas vezes
+Luiza Mendes,49,feminino,responsável,EJA,0a5,boa,não,sim,nunca
+Helena,48,feminino,responsável,6a9,11a20,regular,sim,sim,frequentemente
+Dalia,46,feminino,responsável,EJA,20a40,boa,sim,sim,algumas vezes
+Jorge ,38,masculino,responsável,1a5,20a40,boa,sim,sim,algumas vezes
+anônimo,37,feminino,responsável,1a5,0a5,boa,sim,sim,nunca
+Berenice,43,feminino,responsável,1a5,0a5,regular,sim,sim,nunca
+Ester,44,feminino,responsável,6a9,11a20,boa,sim,sim,frequentemente
